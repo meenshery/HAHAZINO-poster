@@ -1,0 +1,42 @@
+@keyframes slotshake {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(-0.5deg); }
+    50% { transform: rotate(1deg); }
+    75% { transform: rotate(-0.7deg); }
+    100% { transform: rotate(0); }
+}
+
+@keyframes slotshake2 {
+    0% { transform: rotate(-0.7deg); }
+    25% { transform: rotate(0deg); }
+    50% { transform: rotate(-0.6deg); }
+    75% { transform: rotate(-0.7deg); }
+    100% { transform: rotate(0); }
+}
+
+@keyframes still {
+    0% { transform: rotate(-1deg); }
+    50% { transform: rotate(1deg); }
+    100% { transform: rotate(-1deg); }
+}
+
+@keyframes modalshake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes modal-animation {
+    0% { opacity: 0%;}
+    100% { opacity: 100%; }
+}
+
+/* @keyframes screwshake {
+    0% { transform: rotate(-0.8deg); }
+    25% { transform: rotate(0deg); }
+    50% { transform: rotate(-0.7deg); }
+    75% { transform: rotate(-0.8deg); }
+    100% { transform: rotate(0); }
+} */
