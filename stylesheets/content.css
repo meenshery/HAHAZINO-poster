@@ -293,6 +293,10 @@ h2 {
     animation: still-scaled 1.7s ease-in-out infinite;
   }
 
+  .slot.end.scaled:hover {
+    animation: still-scaled 1.7s ease-in-out infinite;
+  }
+
   .hiddeninterface {
     opacity: 0;
   }
