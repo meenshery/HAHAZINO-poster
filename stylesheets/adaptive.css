@@ -1,0 +1,1475 @@
+/* 1680 */
+
+@media screen and (max-width: 1680px) {
+    
+      /* main */
+
+    .backgr {
+        height: calc(100vw * (1050 / 1680));
+  }
+    .container {
+        max-width: 1680px;
+        max-height: 1050px;
+    }
+    .chip {
+        width: calc(100vw*(220 / 1680));
+    }
+    .title {
+        font-size: 60px;
+        top: 16px;
+        left: 123px;
+    }
+    .hide-btn {
+      width: 287px;
+      height: 42px;
+      left: 694px;
+      font-size: 20px;
+    }
+  
+    .hide-btn-2 {
+      width: 49px;
+      height: 38px;
+      left: 812px;
+      font-size: 36px;
+    }
+    .slot {
+        width: 210px;
+        height: 447px;
+        font-size: 100px;
+      }
+    .slot1 {
+        top: 250px;
+        left: 71px;
+      }
+    .slot2 {
+        top: 197px;
+        left: 455px;
+      }
+    .slot3 {
+        top: 291px;
+        right: 547px;
+      }
+    .slot4 {
+        top: 191px;
+        right: 115px;
+      }
+    h2 {
+        font-size: 40px;
+        bottom: 197px;
+        left: 122px;
+      }
+    .name-input {
+        width: 596px;
+        bottom: 40px;
+        left: 122px;
+      }
+    .print-btn {
+        bottom: 40px;
+        right: 64px;
+      }
+    .print-gif {
+        width: 927px;
+        height: 522px;
+        bottom: -130px;
+        right: -215px;
+      }
+    .print-approved {
+        width: 322px;
+        height: 154px;
+        bottom: 55px;
+        right: 100px;
+      }
+    .approved-txt {
+        width: 310px;
+        height: 84px;
+        font-size: 35px;
+        bottom: 40px;
+        right: 5px;
+      }
+    .print-denied {
+        width: 322px;
+        height: 154px;
+        bottom: 55px;
+        right: 100px;
+      }
+    .denied-txt {
+        width: 300px;
+        height: 48px;
+        font-size: 35px;
+        bottom: 55px;
+        right: 15px;
+      }
+
+      /* modal */
+
+    #modal-window {
+      width: 920px;
+      height: 529px;
+      position: absolute;
+      top: 17px;
+      right: 21px;
+      background-image: url(../images/modal-img.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      animation: modal-animation 0.4s ease-in-out 1;
+    }
+
+    .modal-txt {
+      width: 557px;
+      height: 338px;
+      color: #FFF;
+      font-size: 22px;
+      line-height: 120%;
+      letter-spacing: -0.88px;
+      position: absolute;
+      top: 161px;
+      right: 117px;
+      animation: modalshake 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+      }
+
+    .modal-txt-2 {
+      width: 557px;
+      height: 338px;
+      color: #FFF;
+      font-size: 22px;
+      line-height: 120%;
+      letter-spacing: -0.88px;
+      position: absolute;
+      top: 460px;
+      right: -207px;
+      animation: modalshake 0.2s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+      }
+
+      /* draggable */
+
+    .chips-drag {
+        height: calc(100vw*(1050/1680));
+        }
+    .chips-title {
+        width: 1099px;
+        height: 95px;
+        font-size: 60px;
+        top: 37px;
+        left: 291px;
+      }
+    .hand-1 {
+        width: 669px;
+        height: 836px;
+        top: 103px;
+      }
+    
+    .hand-2 {
+        width: 669px;
+        height: 836px;
+        top: 103px;
+      }
+    .draggable {
+        width: calc(100vw*(175/1680));
+      }
+    .done-1 {
+        width: 353px;
+        height: 104px;
+        top: 857px;
+        left: 664px;
+        transition: all 0.1s ease-in-out;
+      }
+    .done-text {
+        font-size: 50px;
+        bottom: 5px;
+      }
+
+       /* cards */
+
+    .cards {
+      height: calc(100vw*(1050/1680));
+    }
+    .cards-title {
+      height: 96px;
+      font-size: 60px;
+      top: 25px;
+      left: 312px;
+    }
+    .card {
+      width: 249px;
+      height: 443px;
+    }
+    .card-img-1 {
+      top: 121px;
+      left: 81px;
+    }
+    .card-img-2 {
+      top: 121px;
+      left: 340px;
+    }
+    .card-img-3 {
+      top: 121px;
+      left: 598px;
+    }
+    .card-img-4 {
+      top: 121px;
+      right: 574px;
+    }
+    .card-img-5 {
+      top: 121px;
+      right: 315px;
+    }
+    .card-img-6 {
+      top: 121px;
+      right: 57px;
+    }
+    .card-img-7 {
+      bottom: 146px;
+      left: 81px;
+    }
+    .card-img-8 {
+      bottom: 146px;
+      left: 340px;
+    }
+    .card-img-9 {
+      bottom: 146px;
+      left: 598px;
+    }
+    .card-img-10 {
+      bottom: 146px;
+      right: 574px;
+    }
+    .card-img-11 {
+      bottom: 146px;
+      right: 315px;
+    }
+    .card-img-12 {
+      bottom: 146px;
+      right: 57px;
+    }
+    .magnifying {
+      top: 290px;
+      left: 265px;
+    }
+    .magnifying:before {
+      width: 873px;
+      height: 874px;
+    }
+    .magnifier {
+      width: 292px;
+      height: 297px;
+      background-image: url(../images/cards-1680.png);
+    }
+    .done-2 {
+      width: 353px;
+      height: 104px;
+      top: 891px;
+      left: 663px;
+    }
+
+    /* anekdoti */
+
+    .anekdoti {
+      height: calc(100vw*(1050/1680));
+    }
+    .anek-title {
+      height: 96px;
+      font-size: 60px;
+      top: 37px;
+      left: 433px;
+    }
+    .done-3 {
+      width: 353px;
+      height: 104px;
+      top: 891px;
+      left: 632px;
+    }
+    .anek1-1 {
+      width: 309px;
+      height: 414px;
+      top: 153px;
+      right: 570px;
+    }
+    .anek1-2 {
+      width: 276px;
+      height: 414px;
+      top: 461px;
+      right: 1015px;
+    }
+    .anek2-1 {
+      width: 303px;
+      height: 295px;
+      top: 163px;
+      left: 103px;
+    }
+    .anek2-2 {
+      width: 304px;
+      height: 378px;
+      bottom: 200px;
+      right: 110px;
+    }
+    .anek3-1 {
+      width: 348px;
+      height: 303px;
+      bottom: 175px;
+      right: 448px;
+    }
+    .anek3-2 {
+      width: 562px;
+      height: 303px;
+      top: 140px;
+      right: 90px;
+    }
+    .anek4-1 {
+      width: 303px;
+      height: 235px;
+      top: 150px;
+      left: 475px;
+    }
+    .anek4-2 {
+      width: 304px;
+      height: 268px;
+      bottom: 130px;
+      left: 50px;
+    }
+
+    /* slot-machine */
+
+    .slot-machine {
+      height: calc(100vw*(1050/1680));
+    }
+    .slot-title {
+      height: 96px;
+      font-size: 60px;
+      position: absolute;
+      top: 37px;
+      left: 246px;
+    }
+    .machines {
+      width: 703px;
+      height: 511px;
+    }
+    .machine {
+      top: 269px;
+      left: 436px;
+    }
+    .machine-left {
+      top: 269px;
+      left: 75px;
+    }
+    .machine-right {
+      top: 269px;
+      right: 73px;
+    }
+    .screw {
+      width: 147px;
+      height: 165px;
+      bottom: 55px;
+      left: 757px;
+    }
+    .done-4 {
+      width: 353px;
+      height: 104px;
+      top: 891px;
+      left: 606px;
+    }
+}
+
+/* 1536 */
+
+@media screen and (max-width: 1536px) {
+  .backgr {
+    height: calc(100vw * (742 / 1536));
+  }
+    .container {
+        max-width: 1536px;
+        max-height: 742px;
+    }
+    .chip {
+        width: calc(100vw*(255 / 1536));
+    }
+    .title {
+        width: 307px;
+        height: 141px;
+        font-size: 40px;
+        top: 21px;
+        left: 106px;
+    }
+    .hide-btn {
+      width: 257px;
+      height: 38px;
+      left: 621px;
+      font-size: 17px;
+    }
+    .hide-btn-2 {
+      width: 47px;
+      height: 36px;
+      left: 731px;
+      font-size: 36px;
+    }
+    #FAQ {
+      width: 67px;
+      height: 67px;
+      top: 27px;
+      right: 110px;
+      font-size: 40px;
+    }
+    .slot {
+        width: 190px;
+        height: 406px;
+        font-size: 100px;
+      }
+    .slot1 {
+        top: 177px;
+        left: 77px;
+      }
+    .slot2 {
+        top: 137px;
+        left: 450px;
+      }
+    .slot3 {
+        top: 283px;
+        right: 550px;
+      }
+    .slot4 {
+        top: 158px;
+        right: 84px;
+      }
+    h2 {
+        font-size: 30px;
+        bottom: 154px;
+        left: 105px;
+      }
+    .name-input {
+        width: 436px;
+        height: 76px;
+        bottom: 44px;
+        left: 105px;
+        font-size: 30px;
+      }
+    .print-btn {
+        width: 316px;
+        height: 142px;
+        bottom: 44px;
+        right: 110px;
+        font-size: 30px;
+      }
+    .print-gif {
+        width: 727px;
+        height: 409px;
+        bottom: -130px;
+        right: -115px;
+      }
+    .print-approved {
+        width: 251px;
+        height: 120px;
+        bottom: 55px;
+        right: 140px;
+      }
+    .approved-txt {
+        width: 206px;
+        height: 72px;
+        font-size: 28px;
+        bottom: 25px;
+        right: 20px;
+      }
+    .print-denied {
+        width: 251px;
+        height: 120px;
+        bottom: 55px;
+        right: 140px;
+      }
+    .denied-txt {
+        width: 228px;
+        height: 33px;
+        font-size: 28px;
+        bottom: 45px;
+        right: 15px;
+      }
+
+      /* modal */
+
+    #modal-window {
+      width: 654px;
+      height: 376px;
+      top: 17px;
+      right: 97px;
+    }
+    #FAQ-2 {
+      width: 67px;
+      height: 67px;
+      top: 10px;
+      right: 10px;
+      font-size: 40px;
+    }
+    .modal-txt {
+      width: 396px;
+      height: 240px;
+      font-size: 16px;
+      top: 101px;
+      right: 77px;
+      }
+    .modal-txt-2 {
+      font-size: 16px;
+      top: 330px;
+      right: -317px;
+      }
+
+      /* draggable */
+
+      .chips-drag {
+        height: calc(100vw*(742/1536));
+        }
+      .chips-title {
+        width: 911px;
+        height: 79px;
+        font-size: 50px;
+        top: 25px;
+        left: 313px;
+        }
+      .hand-1 {
+          width: 637px;
+          height: 693px;
+          top: 61px;
+        }
+      .hand-2 {
+          width: 637px;
+          height: 693px;
+          top: 61px;
+        }
+      .draggable {
+          width: calc(100vw*(145/1536));
+        }
+      .done-1 {
+          width: 276px;
+          height: 81px;
+          top: 638px;
+          left: 617px;
+        }
+      .done-text {
+          font-size: 40px;
+          right: -7px;
+          bottom: -3px;
+        }
+
+        /* cards */
+
+      .cards {
+        height: calc(100vw*(742/1536));
+      }
+      .cards-title {
+        height: 56px;
+        font-size: 50px;
+        top: 25px;
+        left: 331px;
+      }
+      .card {
+        width: 194px;
+        height: 347px;
+      }
+      .card-img-1 {
+        top: 67px;
+        left: 166px;
+      }
+      .card-img-2 {
+        top: 67px;
+        left: 367px;
+      }
+      .card-img-3 {
+        top: 67px;
+        left: 569px;
+      }
+      .card-img-4 {
+        top: 67px;
+        right: 570px;
+      }
+      .card-img-5 {
+        top: 67px;
+        right: 369px;
+      }
+      .card-img-6 {
+        top: 67px;
+        right: 166px;
+      }
+      .card-img-7 {
+        bottom: 66px;
+        left: 166px;
+      }
+      .card-img-8 {
+        bottom: 66px;
+        left: 367px;
+      }
+      .card-img-9 {
+        bottom: 66px;
+        left: 569px;
+      }
+      .card-img-10 {
+        bottom: 66px;
+        right: 570px;
+      }
+      .card-img-11 {
+        bottom: 66px;
+        right: 369px;
+      }
+      .card-img-12 {
+        bottom: 66px;
+        right: 166px;
+      }
+      .magnifying {
+        top: 200px;
+        left: 265px;
+      }
+      .magnifying:before {
+        width: 666px;
+        height: 686px;
+      }
+      .magnifier {
+        width: 242px;
+        height: 227px;
+        background-image: url(../images/cards-1536.png);
+        z-index: -5;
+      }
+      .done-2 {
+        width: 276px;
+        height: 81px;
+        top: 638px;
+        left: 617px;
+      }
+
+      /* anekdoti */
+
+      .anekdoti {
+        height: calc(100vw*(742/1536));
+      }
+      .anek-title {
+        height: 60px;
+        font-size: 50px;
+        top: 25px;
+        left: 436px;
+      }
+      .done-3 {
+        width: 276px;
+        height: 81px;
+        top: 638px;
+        left: 617px;
+      }
+      .anek1-1 {
+        width: 309px;
+        height: 414px;
+        top: 153px;
+        right: 570px;
+      }
+      .anek1-2 {
+        width: 276px;
+        height: 414px;
+        top: 301px;
+        right: 935px;
+      }
+      .anek2-1 {
+        width: 303px;
+        height: 295px;
+        top: 43px;
+        left: 43px;
+      }
+      .anek2-2 {
+        width: 304px;
+        height: 378px;
+        bottom: 70px;
+        right: 50px;
+      }
+      .anek3-1 {
+        width: 348px;
+        height: 303px;
+        bottom: 35px;
+        right: 268px;
+      }
+      .anek3-2 {
+        width: 562px;
+        height: 303px;
+        top: 90px;
+        right: 90px;
+      }
+      .anek4-1 {
+        width: 303px;
+        height: 235px;
+        top: 120px;
+        left: 445px;
+      }
+      .anek4-2 {
+        width: 304px;
+        height: 268px;
+        bottom: 110px;
+        left: 30px;
+      }
+
+      /* slot-machine */
+
+      .slot-machine {
+        height: calc(100vw*(742/1536));
+      }
+      .slot-title {
+        height: 60px;
+        font-size: 50px;
+        top: 25px;
+        left: 274px;
+      }
+      .machines {
+        width: 577px;
+        height: 419px;
+      }
+      .machine {
+        top: 163px;
+        left: 464px;
+      }
+      .machine-left {
+        top: 163px;
+        left: 139px;
+      }
+      .machine-right {
+        top: 163px;
+        right: 139px;
+      }
+      .screw {
+        width: 121px;
+        height: 136px;
+        bottom: 15px;
+        left: 700px;
+      }
+      .done-4 {
+        width: 276px;
+        height: 81px;
+        top: 638px;
+        left: 617px;
+      }
+}
+
+/* 1440 */
+
+@media screen and (max-width: 1440px) {
+  .backgr {
+    height: calc(100vw * (900 / 1440));
+  }
+    .container {
+        max-width: 1440px;
+        max-height: 900px;
+    }
+    .chip {
+        width: calc(100vw*(255 / 1440));
+    }
+    .title {
+        width: 307px;
+        height: 141px;
+        font-size: 40px;
+        top: 21px;
+        left: 106px;
+    }
+    .hide-btn {
+      width: 257px;
+      height: 38px;
+      left: 599px;
+      font-size: 17px;
+    }
+    .hide-btn-2 {
+      width: 47px;
+      height: 36px;
+      left: 697px;
+      font-size: 36px;
+    }
+    #FAQ {
+      width: 67px;
+      height: 67px;
+      top: 27px;
+      right: 110px;
+      font-size: 40px;
+    }
+    .slot {
+        width: 190px;
+        height: 406px;
+        font-size: 100px;
+      }
+    .slot1 {
+        top: 177px;
+        left: 77px;
+      }
+    .slot2 {
+        top: 137px;
+        left: 450px;
+      }
+    .slot3 {
+        top: 283px;
+        right: 530px;
+      }
+    .slot4 {
+        top: 158px;
+        right: 184px;
+      }
+    h2 {
+        font-size: 30px;
+        bottom: 154px;
+        left: 105px;
+      }
+    .name-input {
+        width: 436px;
+        height: 76px;
+        bottom: 44px;
+        left: 105px;
+        font-size: 30px;
+      }
+    .print-btn {
+        width: 316px;
+        height: 142px;
+        bottom: 44px;
+        right: 110px;
+        font-size: 30px;
+      }
+    .print-gif {
+        width: 727px;
+        height: 409px;
+        bottom: -130px;
+        right: -115px;
+      }
+    .print-approved {
+        width: 251px;
+        height: 120px;
+        bottom: 55px;
+        right: 140px;
+      }
+    .approved-txt {
+        width: 206px;
+        height: 72px;
+        font-size: 28px;
+        bottom: 25px;
+        right: 20px;
+      }
+    .print-denied {
+        width: 251px;
+        height: 120px;
+        bottom: 55px;
+        right: 140px;
+      }
+    .denied-txt {
+        width: 228px;
+        height: 33px;
+        font-size: 28px;
+        bottom: 45px;
+        right: 15px;
+      }
+
+      /* modal */
+
+    #modal-window {
+      width: 654px;
+      height: 376px;
+      top: 17px;
+      right: 97px;
+    }
+    #FAQ-2 {
+      width: 67px;
+      height: 67px;
+      top: 10px;
+      right: 10px;
+      font-size: 40px;
+    }
+    .modal-txt {
+      width: 396px;
+      height: 240px;
+      font-size: 16px;
+      top: 101px;
+      right: 77px;
+      }
+    .modal-txt-2 {
+      font-size: 16px;
+      top: 330px;
+      right: -317px;
+      }
+
+      /* draggable */
+
+      .chips-drag {
+        height: calc(100vw*(900/1440));
+        }
+      .chips-title {
+        width: 917px;
+        height: 48px;
+        font-size: 50px;
+        top: 59px;
+        left: 262px;
+        }
+      .hand-1 {
+          width: 637px;
+          height: 693px;
+          top: 111px;
+        }
+      .hand-2 {
+          width: 637px;
+          height: 693px;
+          top: 111px;
+        }
+      .draggable {
+          width: calc(100vw*(145/1440));
+        }
+      .done-1 {
+          width: 276px;
+          height: 81px;
+          top: 758px;
+          left: 566px;
+        }
+      .done-text {
+          font-size: 40px;
+          right: -7px;
+          bottom: -3px;
+        }
+
+        /* cards */
+
+      .cards {
+        height: calc(100vw*(900/1440));
+      }
+      .cards-title {
+        height: 48px;
+        font-size: 50px;
+        top: 59px;
+        left: 280px;
+      }
+      .card {
+        width: 207px;
+        height: 368px;
+      }
+      .card-img-1 {
+        top: 127px;
+        left: 90px;
+      }
+      .card-img-2 {
+        top: 127px;
+        left: 304px;
+      }
+      .card-img-3 {
+        top: 127px;
+        left: 519px;
+      }
+      .card-img-4 {
+        top: 127px;
+        right: 500px;
+      }
+      .card-img-5 {
+        top: 127px;
+        right: 284px;
+      }
+      .card-img-6 {
+        top: 127px;
+        right: 70px;
+      }
+      .card-img-7 {
+        bottom: 123px;
+        left: 90px;
+      }
+      .card-img-8 {
+        bottom: 123px;
+        left: 303px;
+      }
+      .card-img-9 {
+        bottom: 123px;
+        left: 519px;
+      }
+      .card-img-10 {
+        bottom: 123px;
+        right: 500px;
+      }
+      .card-img-11 {
+        bottom: 123px;
+        right: 284px;
+      }
+      .card-img-12 {
+        bottom: 123px;
+        right: 70px;
+      }
+      .magnifying {
+        top: 400px;
+        left: 265px;
+      }
+      .magnifying:before {
+        width: 666px;
+        height: 686px;
+      }
+      .magnifier {
+        width: 242px;
+        height: 227px;
+        background-image: url(../images/cards-1440.png);
+        z-index: -5;
+      }
+      .done-2 {
+        width: 307px;
+        height: 90px;
+        top: 758px;
+        left: 566px;
+      }
+
+      /* anekdoti */
+
+      .anekdoti {
+        height: calc(100vw*(900/1440));
+      }
+      .anek-title {
+        height: 60px;
+        font-size: 50px;
+        top: 59px;
+        left: 387px;
+      }
+      .done-3 {
+        width: 307px;
+        height: 90px;
+        top: 758px;
+        left: 566px;
+      }
+      .anek1-1 {
+        width: 309px;
+        height: 414px;
+        top: 153px;
+        right: 570px;
+      }
+      .anek1-2 {
+        width: 276px;
+        height: 414px;
+        top: 301px;
+        right: 935px;
+      }
+      .anek2-1 {
+        width: 303px;
+        height: 295px;
+        top: 43px;
+        left: 43px;
+      }
+      .anek2-2 {
+        width: 304px;
+        height: 378px;
+        bottom: 70px;
+        right: 50px;
+      }
+      .anek3-1 {
+        width: 348px;
+        height: 303px;
+        bottom: 155px;
+        right: 338px;
+      }
+      .anek3-2 {
+        width: 562px;
+        height: 303px;
+        top: 130px;
+        right: 90px;
+      }
+      .anek4-1 {
+        width: 303px;
+        height: 235px;
+        top: 140px;
+        left: 445px;
+      }
+      .anek4-2 {
+        width: 304px;
+        height: 268px;
+        bottom: 110px;
+        left: 30px;
+      }
+
+      /* slot-machine */
+
+      .slot-machine {
+        height: calc(100vw*(900/1440));
+      }
+      .slot-title {
+        height: 48px;
+        font-size: 50px;
+        top: 59px;
+        left: 227px;
+      }
+      .machines {
+        width: 634px;
+        height: 461px;
+      }
+      .machine {
+        top: 220px;
+        left: 390px;
+      }
+      .machine-left {
+        top: 220px;
+        left: 33px;
+      }
+      .machine-right {
+        top: 220px;
+        right: 26px;
+      }
+      .screw {
+        width: 110px;
+        height: 123px;
+        bottom: 52px;
+        left: 659px;
+      }
+      .done-4 {
+        width: 307px;
+        height: 90px;
+        top: 758px;
+        left: 566px;
+      }
+}
+
+/* 1366 */
+
+@media screen and (max-width: 1367px) {
+    .backgr {
+    height: calc(100vw * (768 / 1366));
+    }
+    .container {
+        max-width: 1366px;
+        max-height: 768px;
+    }
+    .chip {
+        width: calc(100vw*(211 / 1366));
+    }
+    .title {
+        width: 266px;
+        height: 134px;
+        font-size: 35px;
+        top: 26px;
+        left: 93px;
+    }
+    .hide-btn {
+      width: 220px;
+      height: 32px;
+      left: 573px;
+      font-size: 13px;
+    }
+    .hide-btn-2 {
+      width: 47px;
+      height: 36px;
+      left: 660px;
+      font-size: 36px;
+    }
+    #FAQ {
+      width: 67px;
+      height: 67px;
+      top: 26px;
+      right: 110px;
+      font-size: 40px;
+    }
+    .slot {
+        width: 163px;
+        height: 348px;
+        font-size: 80px;
+      }
+    .slot1 {
+        top: 177px;
+        left: 77px;
+      }
+    .slot2 {
+        top: 137px;
+        left: 450px;
+      }
+    .slot3 {
+        top: 283px;
+        right: 530px;
+      }
+    .slot4 {
+        top: 158px;
+        right: 184px;
+      }
+    h2 {
+        font-size: 25px;
+        bottom: 148px;
+        left: 96px;
+      }
+    .name-input {
+        width: 373px;
+        height: 80px;
+        bottom: 29px;
+        left: 96px;
+        font-size: 25px;
+      }
+    .print-btn {
+        width: 284px;
+        height: 129px;
+        bottom: 39px;
+        right: 94px;
+        font-size: 25px;
+      }
+    .print-gif {
+        width: 627px;
+        height: 353px;
+        bottom: -120px;
+        right: -100px;
+      }
+    .print-approved {
+        width: 208px;
+        height: 100px;
+        bottom: 50px;
+        right: 130px;
+      }
+    .approved-txt {
+        width: 154px;
+        height: 48px;
+        font-size: 20px;
+        bottom: 30px;
+        right: 25px;
+      }
+    .print-denied {
+        width: 208px;
+        height: 100px;
+        bottom: 50px;
+        right: 130px;
+      }
+    .denied-txt {
+        width: 154px;
+        height: 20px;
+        font-size: 20px;
+        bottom: 45px;
+        right: 30px;
+      }
+
+      /* modal */
+
+    #modal-window {
+      width: 654px;
+      height: 376px;
+      top: 17px;
+      right: 97px;
+    }
+    #FAQ-2 {
+      width: 67px;
+      height: 67px;
+      top: 10px;
+      right: 10px;
+      font-size: 40px;
+    }
+    .modal-txt {
+      width: 396px;
+      height: 240px;
+      font-size: 16px;
+      top: 101px;
+      right: 77px;
+      }
+    .modal-txt-2 {
+      font-size: 16px;
+      top: 330px;
+      right: -317px;
+      }
+
+      /* draggable */
+
+      .chips-drag {
+        height: calc(100vw*(768/1366));
+        }
+      .chips-title {
+        width: 824px;
+        height: 57px;
+        font-size: 45px;
+        top: 28px;
+        left: 271px;
+        }
+      .hand-1 {
+          width: 557px;
+          height: 669px;
+          top: 73px;
+        }
+      .hand-2 {
+          width: 557px;
+          height: 669px;
+          top: 73px;
+        }
+      .draggable {
+          width: calc(100vw*(140/1366));
+        }
+      .done-1 {
+          width: 253px;
+          height: 73px;
+          top: 667px;
+          left: 556px;
+        }
+      .done-text {
+          font-size: 40px;
+          right: -20px;
+          bottom: -10px;
+        }
+
+        /* cards */
+
+      .cards {
+        height: calc(100vw*(768/1366));
+      }
+      .cards-title {
+        height: 54px;
+        font-size: 45px;
+        top: 28px;
+        left: 290px;
+      }
+      .card {
+        width: 177px;
+        height: 315px;
+      }
+      .card-img-1 {
+        top: 111px;
+        left: 144px;
+      }
+      .card-img-2 {
+        top: 111px;
+        left: 327px;
+      }
+      .card-img-3 {
+        top: 111px;
+        left: 511px;
+      }
+      .card-img-4 {
+        top: 111px;
+        right: 494px;
+      }
+      .card-img-5 {
+        top: 111px;
+        right: 309px;
+      }
+      .card-img-6 {
+        top: 111px;
+        right: 126px;
+      }
+      .card-img-7 {
+        bottom: 101px;
+        left: 144px;
+      }
+      .card-img-8 {
+        bottom: 101px;
+        left: 327px;
+      }
+      .card-img-9 {
+        bottom: 101px;
+        left: 511px;
+      }
+      .card-img-10 {
+        bottom: 101px;
+        right: 494px;
+      }
+      .card-img-11 {
+        bottom: 101px;
+        right: 309px;
+      }
+      .card-img-12 {
+        bottom: 101px;
+        right: 126px;
+      }
+      .magnifying {
+        top: 300px;
+        left: 265px;
+      }
+      .magnifying:before {
+        width: 666px;
+        height: 686px;
+      }
+      .magnifier {
+        width: 242px;
+        height: 227px;
+        background-image: url(../images/cards-1366.png);
+        z-index: -5;
+      }
+      .done-2 {
+        width: 253px;
+        height: 73px;
+        top: 667px;
+        left: 556px;
+      }
+
+      /* anekdoti */
+
+      .anekdoti {
+        height: calc(100vw*(768/1366));
+      }
+      .anek-title {
+        height: 60px;
+        font-size: 45px;
+        top: 28px;
+        left: 384px;
+      }
+      .done-3 {
+        width: 253px;
+        height: 73px;
+        top: 667px;
+        left: 556px;
+      }
+      .anek1-1 {
+        width: 309px;
+        height: 414px;
+        top: 153px;
+        right: 570px;
+      }
+      .anek1-2 {
+        width: 276px;
+        height: 414px;
+        top: 301px;
+        right: 935px;
+      }
+      .anek2-1 {
+        width: 303px;
+        height: 295px;
+        top: 43px;
+        left: 43px;
+      }
+      .anek2-2 {
+        width: 304px;
+        height: 378px;
+        bottom: 70px;
+        right: 50px;
+      }
+      .anek3-1 {
+        width: 348px;
+        height: 303px;
+        bottom: 155px;
+        right: 338px;
+      }
+      .anek3-2 {
+        width: 562px;
+        height: 303px;
+        top: 130px;
+        right: 90px;
+      }
+      .anek4-1 {
+        width: 303px;
+        height: 235px;
+        top: 140px;
+        left: 445px;
+      }
+      .anek4-2 {
+        width: 304px;
+        height: 268px;
+        bottom: 110px;
+        left: 30px;
+      }
+
+      /* slot-machine */
+
+      .slot-machine {
+        height: calc(100vw*(768/366));
+      }
+      .slot-title {
+        height: 42px;
+        font-size: 45px;
+        top: 28px;
+        left: 238px;
+      }
+      .machines {
+        width: 582px;
+        height: 423px;
+      }
+      .machine {
+        top: 191px;
+        left: 377px;
+      }
+      .machine-left {
+        top: 191px;
+        left: 49px;
+      }
+      .machine-right {
+        top: 191px;
+        right: 50px;
+      }
+      .screw {
+        width: 101px;
+        height: 113px;
+        top: 632px;
+        left: 627px;
+      }
+      .done-4 {
+        width: 253px;
+        height: 73px;
+        top: 667px;
+        left: 556px;
+      }
+}
