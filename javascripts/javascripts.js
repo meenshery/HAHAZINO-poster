@@ -1,8 +1,40 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+  // preloader
+
+    const progressbar = document.querySelector(".progress-bar");
+    const progress = document.querySelector(".progress");
+    const ptxt = document.querySelector(".preloader-txt");
+    const enter = document.querySelector(".enter-btn");
+    const preloader = document.querySelector(".preloader");
+  
+    let percent = 0;
+    const interval = setInterval(() => {
+      percent += 1;
+      progress.style.width = percent + "%";
+  
+      if (percent >= 101) {
+        clearInterval(interval);
+        
+        ptxt.style.bottom = "21%";
+        ptxt.style.left = "42%";
+        ptxt.textContent = "загрузка завершена.";
+        enter.style.display = "inline-block";
+        progressbar.style.opacity = "0";
+      }
+    }, 30);
+  
+    enter.addEventListener("click", () => {
+      preloader.style.opacity = "0";
+      preloader.style.visibility = "hidden";
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 1000);
+    });
+
   // parallax
-const wrapper = document.querySelector('.backgr');
-const layers = document.querySelectorAll('.chip');
+    const wrapper = document.querySelector('.backgr');
+    const layers = document.querySelectorAll('.chip');
     const handleParallax = (evt) => {
       const parallaxLeftOffset = wrapper.getBoundingClientRect().left;
       const parallaxTopOffset = wrapper.getBoundingClientRect().top;
@@ -53,7 +85,7 @@ const layers = document.querySelectorAll('.chip');
 
 // draggable
 
-document.querySelectorAll(".draggable, .magnifying, .aneks").forEach(draggableElement => {
+document.querySelectorAll(".draggable, .magnifying").forEach(draggableElement => {
   let isDragging = false;
   let offsetX = 0, offsetY = 0;
 
@@ -83,12 +115,47 @@ document.querySelectorAll(".draggable, .magnifying, .aneks").forEach(draggableEl
       isDragging = false;
       document.removeEventListener("mousemove", onMouseMove);
       document.removeEventListener("mouseup", onMouseUp);
-      groupNearbyElementsHorizontal('.anekdoti > .anek-pair-1', 70);
-      groupNearbyElementsVertical('.anekdoti > .anek-pair-2', 110);
-      groupNearbyElementsHorizontal('.anekdoti > .anek-pair-3', 345);
-      groupNearbyElementsVertical('.anekdoti > .anek-pair-4', 55);
   }
 });
+
+  // draggable aneks
+
+  document.querySelectorAll(".aneks").forEach(draggableElement2 => {
+    let isDragging = false;
+    let offsetX = 0, offsetY = 0;
+  
+    draggableElement2.addEventListener("mousedown", function (event) {
+        isDragging = true;
+  
+        offsetX = event.clientX - draggableElement2.getBoundingClientRect().left;
+        offsetY = event.clientY - draggableElement2.getBoundingClientRect().top;
+        event.preventDefault();
+        document.addEventListener("mousemove", onMouseMove);
+        document.addEventListener("mouseup", onMouseUp);
+    });
+  
+    function onMouseMove(event) {
+        if (!isDragging){
+          return;
+        } 
+  
+        let x = event.clientX - offsetX;
+        let y = event.clientY - offsetY;
+  
+        draggableElement2.style.left = `${x}px`;
+        draggableElement2.style.top = `${y}px`;
+    }
+  
+    function onMouseUp() {
+        isDragging = false;
+        document.removeEventListener("mousemove", onMouseMove);
+        document.removeEventListener("mouseup", onMouseUp);
+        groupNearbyElementsHorizontal('.anekdoti > .anek-pair-1', 70);
+        groupNearbyElementsVertical('.anekdoti > .anek-pair-2', 110);
+        groupNearbyElementsHorizontal('.anekdoti > .anek-pair-3', 345);
+        groupNearbyElementsVertical('.anekdoti > .anek-pair-4', 55);
+    }
+  });
 
   // hide-scale-show
 
@@ -261,30 +328,56 @@ function showSection (main) {
 
             document.querySelectorAll(".machines").forEach(box => {
 
-              if (clickCount == 1) {
-                box.style.opacity = "0.57";
-                centerbox.style.opacity = "0.85";
-                document.querySelector(".machine-left").style.transform = "translateX(25%)"; 
-                document.querySelector(".machine-right").style.transform = "translateX(-25%)";
-                screwbtn.classList.add("rotated1");
-            } 
-            else if (clickCount == 2){
-                box.style.opacity = "0.73";
-                centerbox.style.opacity = "0.87"; 
-                document.querySelector(".machine-left").style.transform = "translateX(50%)"; 
-                document.querySelector(".machine-right").style.transform = "translateX(-50%)";
-                screwbtn.classList.add("rotated2");
-            }
-            else if (clickCount == 3){
-              box.style.opacity = "0"; 
-              centerbox.style.opacity = "1";
-              document.querySelector(".machine-left").style.transform = "translateX(75%)"; 
-              document.querySelector(".machine-right").style.transform = "translateX(-75%)";
-              screwbtn.classList.add("hidden");
-              screwbtn2.classList.remove("hidden");
-          }
+              if (window.innerWidth <= 414) {
+
+                if (clickCount == 1) {
+                  box.style.opacity = "0.57";
+                  centerbox.style.opacity = "0.85";
+                  document.querySelector(".machine-left").style.transform = "translateY(25%)"; 
+                  document.querySelector(".machine-right").style.transform = "translateY(-25%)";
+                  screwbtn.classList.add("rotated1");
+                } 
+                else if (clickCount == 2) {
+                  box.style.opacity = "0.73";
+                  centerbox.style.opacity = "0.87"; 
+                  document.querySelector(".machine-left").style.transform = "translateY(50%)"; 
+                  document.querySelector(".machine-right").style.transform = "translateY(-50%)";
+                  screwbtn.classList.add("rotated2");
+                } 
+                else if (clickCount == 3) {
+                  box.style.opacity = "0"; 
+                  centerbox.style.opacity = "1";
+                  document.querySelector(".machine-left").style.transform = "translateY(75%)"; 
+                  document.querySelector(".machine-right").style.transform = "translateY(-75%)";
+                  screwbtn.classList.add("hidden");
+                  screwbtn2.classList.remove("hidden");
+                }
+              } else {
+                if (clickCount == 1) {
+                  box.style.opacity = "0.57";
+                  centerbox.style.opacity = "0.85";
+                  document.querySelector(".machine-left").style.transform = "translateX(25%)"; 
+                  document.querySelector(".machine-right").style.transform = "translateX(-25%)";
+                  screwbtn.classList.add("rotated1");
+                } else if (clickCount == 2) {
+                  box.style.opacity = "0.73";
+                  centerbox.style.opacity = "0.87"; 
+                  document.querySelector(".machine-left").style.transform = "translateX(50%)"; 
+                  document.querySelector(".machine-right").style.transform = "translateX(-50%)";
+                  screwbtn.classList.add("rotated2");
+                } else if (clickCount == 3) {
+                  box.style.opacity = "0"; 
+                  centerbox.style.opacity = "1";
+                  document.querySelector(".machine-left").style.transform = "translateX(75%)"; 
+                  document.querySelector(".machine-right").style.transform = "translateX(-75%)";
+                  screwbtn.classList.add("hidden");
+                  screwbtn2.classList.remove("hidden");
+                }
+              }
             });
         });
+
+        // anekdoti склеивание
 
         function groupNearbyElementsHorizontal(selector, aneksOffset) {
           var elements = document.querySelectorAll(selector);
@@ -442,6 +535,7 @@ function showSection (main) {
               });
           });
         }
+        
         
         
 
