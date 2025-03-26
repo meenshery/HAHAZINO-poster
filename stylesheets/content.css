@@ -51,6 +51,96 @@ h2 {
   color: #1A841A;
 }
 
+/* preloader */
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1s ease, visibility 1s ease;
+}
+
+.preloader-gif {
+  width: 463px;
+  height: 463px;
+  position: absolute;
+  top: 131px;
+  left: 729px;
+}
+
+.progress-bar {
+  width: 324px;
+  height: 65px;
+  border: 10px solid #FFF;
+  background: #000;
+  overflow: hidden;
+  position: absolute;
+  top: 615px;
+  left: 798px;
+}
+
+.progress {
+  width: 0%;
+  height: 100%;
+  background: #FFF;
+  transition: width 0.2s ease;
+}
+
+.preloader-txt {
+  width: 578px;
+  height: 78px;
+  color: #FFF;
+  font-family: 'Joystix';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.88px;
+  position: absolute;
+  bottom: 257px;
+  left: 671px;
+  animation: preloadershake 0.3s cubic-bezier(0.19, 1, 0.22, 1)  infinite;
+}
+
+.logo-img {
+  width: 123px;
+  height: 61px;
+  position: absolute;
+  bottom: 131px;
+  left: 899px;
+}
+
+.enter-btn {
+  width: 232px;
+  height: 65px;
+  cursor: url('../images/cur2.svg') 16 16, pointer;
+  background: #FFF;
+  box-shadow: 10px 13px 0px 0px rgba(174, 174, 174, 0.25);
+  position: absolute;
+  top: 615px;
+  left: 845px;
+  transition: all 0.15s ease-in-out;
+  padding: 17px 19px;
+  font-size: 24px;
+  font-family: 'Joystix';
+  color: #1A841A;
+}
+
+.enter-btn:active {
+  box-shadow: none;
+  transform: translateY(-2px);
+  transform: translateY(-6px);
+}
+
+
 /* background */
 
 .backgr {
