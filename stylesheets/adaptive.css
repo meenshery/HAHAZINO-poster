@@ -406,7 +406,7 @@
       width: 67px;
       height: 67px;
       top: 27px;
-      right: 110px;
+      right: 107px;
       font-size: 40px;
     }
     .slot {
@@ -1156,7 +1156,7 @@
       }
     .slot2 {
         top: 137px;
-        left: 450px;
+        left: 400px;
       }
     .slot3 {
         top: 283px;
@@ -1194,7 +1194,7 @@
     .print-approved {
         width: 208px;
         height: 100px;
-        bottom: 50px;
+        bottom: 53px;
         right: 130px;
       }
     .approved-txt {
@@ -1207,7 +1207,7 @@
     .print-denied {
         width: 208px;
         height: 100px;
-        bottom: 50px;
+        bottom: 53px;
         right: 130px;
       }
     .denied-txt {
@@ -1473,3 +1473,1873 @@
         left: 556px;
       }
 }
+
+/* 1280 */
+
+@media screen and (max-width: 1280px) {
+  .backgr {
+  height: calc(100vw * (800 / 1280));
+  }
+  .container {
+      max-width: 1280px;
+      max-height: 800px;
+  }
+  .chip {
+      width: calc(100vw*(211 / 1280));
+  }
+  .title {
+      width: 266px;
+      height: 134px;
+      font-size: 35px;
+      top: 26px;
+      left: 93px;
+  }
+  .hide-btn {
+    width: 220px;
+    height: 32px;
+    left: 530px;
+    font-size: 13px;
+  }
+  .hide-btn-2 {
+    width: 47px;
+    height: 36px;
+    left: 617px;
+    font-size: 36px;
+  }
+  #FAQ {
+    width: 67px;
+    height: 67px;
+    top: 26px;
+    right: 110px;
+    font-size: 40px;
+  }
+  .slot {
+      width: 163px;
+      height: 348px;
+      font-size: 80px;
+    }
+  .slot1 {
+      top: 177px;
+      left: 77px;
+    }
+  .slot2 {
+      top: 137px;
+      left: 350px;
+    }
+  .slot3 {
+      top: 283px;
+      right: 490px;
+    }
+  .slot4 {
+      top: 158px;
+      right: 184px;
+    }
+  h2 {
+      font-size: 25px;
+      bottom: 148px;
+      left: 96px;
+    }
+  .name-input {
+      width: 373px;
+      height: 80px;
+      bottom: 29px;
+      left: 96px;
+      font-size: 25px;
+    }
+  .print-btn {
+      width: 284px;
+      height: 129px;
+      bottom: 39px;
+      right: 94px;
+      font-size: 25px;
+    }
+  .print-gif {
+      width: 627px;
+      height: 353px;
+      bottom: -120px;
+      right: -100px;
+    }
+  .print-approved {
+      width: 208px;
+      height: 100px;
+      bottom: 55px;
+      right: 130px;
+    }
+  .approved-txt {
+      width: 154px;
+      height: 48px;
+      font-size: 20px;
+      bottom: 30px;
+      right: 25px;
+    }
+  .print-denied {
+      width: 208px;
+      height: 100px;
+      bottom: 55px;
+      right: 130px;
+    }
+  .denied-txt {
+      width: 154px;
+      height: 20px;
+      font-size: 20px;
+      bottom: 45px;
+      right: 30px;
+    }
+
+    /* modal */
+
+  #modal-window {
+    width: 654px;
+    height: 376px;
+    top: 17px;
+    right: 97px;
+  }
+  #FAQ-2 {
+    width: 67px;
+    height: 67px;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+  }
+  .modal-txt {
+    width: 396px;
+    height: 240px;
+    font-size: 16px;
+    top: 101px;
+    right: 77px;
+    }
+  .modal-txt-2 {
+    font-size: 16px;
+    top: 330px;
+    right: -317px;
+    }
+
+    /* draggable */
+
+    .chips-drag {
+      height: calc(100vw*(800/1280));
+      }
+    .chips-title {
+      width: 824px;
+      height: 57px;
+      font-size: 45px;
+      top: 28px;
+      left: 271px;
+      }
+    .hand-1 {
+        width: 557px;
+        height: 669px;
+        top: 73px;
+      }
+    .hand-2 {
+        width: 557px;
+        height: 669px;
+        top: 73px;
+      }
+    .draggable {
+        width: calc(100vw*(140/1280));
+      }
+    .done-1 {
+        width: 253px;
+        height: 73px;
+        top: 667px;
+        left: 519px;
+      }
+    .done-text {
+        font-size: 40px;
+        right: -20px;
+        bottom: -10px;
+      }
+
+      /* cards */
+
+    .cards {
+      height: calc(100vw*(800/1280));
+    }
+    .cards-title {
+      height: 54px;
+      font-size: 45px;
+      top: 28px;
+      left: 290px;
+    }
+    .card {
+      width: 163px;
+      height: 290px;
+    }
+    .card-img-1 {
+      top: 133px;
+      left: 144px;
+    }
+    .card-img-2 {
+      top: 133px;
+      left: 313px;
+    }
+    .card-img-3 {
+      top: 133px;
+      left: 482px;
+    }
+    .card-img-4 {
+      top: 133px;
+      right: 467px;
+    }
+    .card-img-5 {
+      top: 133px;
+      right: 297px;
+    }
+    .card-img-6 {
+      top: 133px;
+      right: 128px;
+    }
+    .card-img-7 {
+      bottom: 155px;
+      left: 144px;
+    }
+    .card-img-8 {
+      bottom: 155px;
+      left: 313px;
+    }
+    .card-img-9 {
+      bottom: 155px;
+      left: 482px;
+    }
+    .card-img-10 {
+      bottom: 155px;
+      right: 467px;
+    }
+    .card-img-11 {
+      bottom: 155px;
+      right: 297px;
+    }
+    .card-img-12 {
+      bottom: 155px;
+      right: 128px;
+    }
+    .magnifying {
+      top: 300px;
+      left: 265px;
+    }
+    .magnifying:before {
+      width: 566px;
+      height: 583px;
+    }
+    .magnifier {
+      width: 202px;
+      height: 197px;
+      background-image: url(../images/cards-1280.png);
+      z-index: -5;
+    }
+    .done-2 {
+      width: 253px;
+      height: 73px;
+      top: 667px;
+      left: 519px;
+    }
+
+    /* anekdoti */
+
+    .anekdoti {
+      height: calc(100vw*(800/1280));
+    }
+    .anek-title {
+      height: 60px;
+      font-size: 45px;
+      top: 28px;
+      left: 384px;
+    }
+    .done-3 {
+      width: 253px;
+      height: 73px;
+      top: 667px;
+      left: 519px;
+    }
+    .anek1-1 {
+      width: 309px;
+      height: 414px;
+      top: 153px;
+      right: 570px;
+    }
+    .anek1-2 {
+      width: 276px;
+      height: 414px;
+      top: 301px;
+      right: 935px;
+    }
+    .anek2-1 {
+      width: 303px;
+      height: 295px;
+      top: 43px;
+      left: 43px;
+    }
+    .anek2-2 {
+      width: 304px;
+      height: 378px;
+      bottom: 70px;
+      right: 50px;
+    }
+    .anek3-1 {
+      width: 348px;
+      height: 303px;
+      bottom: 155px;
+      right: 338px;
+    }
+    .anek3-2 {
+      width: 562px;
+      height: 303px;
+      top: 130px;
+      right: 90px;
+    }
+    .anek4-1 {
+      width: 303px;
+      height: 235px;
+      top: 140px;
+      left: 445px;
+    }
+    .anek4-2 {
+      width: 304px;
+      height: 268px;
+      bottom: 110px;
+      left: 30px;
+    }
+
+    /* slot-machine */
+
+    .slot-machine {
+      height: calc(100vw*(800/1280));
+    }
+    .slot-title {
+      height: 42px;
+      font-size: 45px;
+      top: 28px;
+      left: 238px;
+    }
+    .machines {
+      width: 532px;
+      height: 387px;
+    }
+    .machine {
+      top: 227px;
+      left: 360px;
+    }
+    .machine-left {
+      top: 227px;
+      left: 60px;
+    }
+    .machine-right {
+      top: 227px;
+      right: 59px;
+    }
+    .screw {
+      width: 93px;
+      height: 103px;
+      top: 657px;
+      left: 589px;
+    }
+    .done-4 {
+      width: 253px;
+      height: 73px;
+      top: 667px;
+      left: 519px;
+    }
+}
+
+/* 1024 */
+
+@media screen and (max-width: 1024px) {
+  .backgr {
+  height: calc(100vw * (768 / 1024));
+  }
+  .container {
+      max-width: 1024px;
+      max-height: 768px;
+  }
+  .chip {
+      width: calc(100vw*(211 / 1024));
+  }
+  .title {
+      width: 255px;
+      height: 134px;
+      font-size: 35px;
+      top: 39px;
+      left: 37px;
+  }
+  .hide-btn {
+    width: 256px;
+    height: 37px;
+    left: 384px;
+    font-size: 16px;
+  }
+  .hide-btn-2 {
+    width: 51px;
+    height: 38px;
+    left: 487px;
+    font-size: 36px;
+  }
+  .show-text {
+    padding-left: 11px;
+    font-size: 36px;
+    bottom: 1px;
+  }
+  #FAQ {
+    width: 71px;
+    height: 70px;
+    top: 39px;
+    right: 30px;
+    font-size: 45px;
+    border: 7px solid #1A841A;
+  }
+  .FAQ-txt {
+    bottom: 6%;
+    right: 17%;
+  }
+  #FAQ:hover {
+    color: #1a841aaa;
+    border: 7px solid #1a841aaa;
+  }
+  .slot {
+    width: 158px;
+    height: 337px;
+    font-size: 80px;
+    }
+  .slot1 {
+    top: 162px;
+    left: 22px;
+    }
+  .slot2 {
+    top: 203px;
+    left: 267px;
+    }
+  .slot3 {
+    top: 133px;
+    right: 326px;
+    }
+  .slot4 {
+    top: 208px;
+    right: 74px;
+    }
+  h2 {
+    font-size: 25px;
+    bottom: 163px;
+    left: 40px;
+    }
+  .name-input {
+    width: 373px;
+    height: 80px;
+    bottom: 29px;
+    left: 40px;
+    font-size: 25px;
+    border: 7px solid #FFF;
+    }
+  .print-btn {
+    width: 313px;
+    height: 142px;
+    bottom: 29px;
+    right: 40px;
+    font-size: 25px;
+    border: 7px solid #FFF;
+    }
+  .print-gif {
+    width: 627px;
+    height: 353px;
+    bottom: -110px;
+    right: -130px;
+    }
+  .print-approved {
+    width: 236px;
+    height: 113px;
+    bottom: 43px;
+    right: 75px;
+    }
+  .approved-txt {
+    width: 207px;
+    height: 61px;
+    font-size: 25px;
+    bottom: 30px;
+    right: 13px;
+    }
+  .print-denied {
+    width: 236px;
+    height: 113px;
+    bottom: 43px;
+    right: 75px;
+    }
+  .denied-txt {
+    width: 189px;
+    height: 29px;
+    font-size: 25px;
+    bottom: 43px;
+    right: 25px;
+    }
+
+    /* modal */
+
+  #modal-window {
+    width: 522px;
+    height: 401px;
+    top: 29px;
+    right: 20px;
+    background-image: url(../images/modal-1024.png);
+  }
+  #FAQ-2 {
+    width: 71px;
+    height: 70px;
+    top: 10px;
+    right: 10px;
+    font-size: 45px;
+    border: 7px solid #ffffff;
+  }
+  #FAQ-2:hover {
+    color: #ffffffa9;
+    border: 7px solid #ffffffa9;
+  }
+  .modal-txt {
+    width: 267px;
+    height: 305px;
+    font-size: 14px;
+    top: 82px;
+    right: 80px;
+    }
+  .modal-txt-2 {
+    font-size: 14px;
+    top: 340px;
+    right: -320px;
+    }
+
+    /* draggable */
+
+    .chips-drag {
+      height: calc(100vw*(768/1024));
+      }
+    .chips-title {
+      width: 912px;
+      height: 57px;
+      font-size: 50px;
+      top: 41px;
+      left: 56px;
+      }
+    .hand-1 {
+        width: 413px;
+        height: 497px;
+        top: 141px;
+      }
+    .hand-2 {
+        width: 413px;
+        height: 497px;
+        top: 141px;
+      }
+    .draggable {
+        width: calc(100vw*(170/1024));
+      }
+    .done-1 {
+        width: 303px;
+        height: 87px;
+        top: 633px;
+        left: 361px;
+      }
+    .done-text {
+        font-size: 35px;
+        right: 20px;
+        bottom: 0px;
+      }
+
+      /* cards */
+
+    .cards {
+      height: calc(100vw*(768/1024));
+    }
+    .cards-title {
+      height: 59px;
+      font-size: 50px;
+      top: 41px;
+      left: 75px;
+    }
+    .card {
+      width: 152px;
+      height: 270px;
+    }
+    .card-img-1 {
+      top: 124px;
+      left: 50px;
+    }
+    .card-img-2 {
+      top: 124px;
+      left: 207px;
+    }
+    .card-img-3 {
+      top: 124px;
+      left: 364px;
+    }
+    .card-img-4 {
+      top: 124px;
+      right: 352px;
+    }
+    .card-img-5 {
+      top: 124px;
+      right: 194px;
+    }
+    .card-img-6 {
+      top: 124px;
+      right: 37px;
+    }
+    .card-img-7 {
+      bottom: 168px;
+      left: 50px;
+    }
+    .card-img-8 {
+      bottom: 168px;
+      left: 207px;
+    }
+    .card-img-9 {
+      bottom: 168px;
+      left: 364px;
+    }
+    .card-img-10 {
+      bottom: 168px;
+      right: 352px;
+    }
+    .card-img-11 {
+      bottom: 168px;
+      right: 194px;
+    }
+    .card-img-12 {
+      bottom: 168px;
+      right: 37px;
+    }
+    .magnifying {
+      top: 300px;
+      left: 265px;
+    }
+    .magnifying:before {
+      width: 566px;
+      height: 583px;
+    }
+    .magnifier {
+      width: 202px;
+      height: 197px;
+      background-image: url(../images/cards-1024.png);
+      z-index: -5;
+    }
+    .done-2 {
+      width: 303px;
+      height: 87px;
+      top: 633px;
+      left: 361px;
+    }
+
+    /* anekdoti */
+
+    .anekdoti {
+      height: calc(100vw*(768/1024));
+    }
+    .anek-title {
+      height: 60px;
+      font-size: 50px;
+      top: 41px;
+      left: 181px;
+    }
+    .done-3 {
+      width: 303px;
+      height: 87px;
+      top: 633px;
+      left: 361px;
+    }
+    .anek1-1 {
+      width: 309px;
+      height: 414px;
+      top: 153px;
+      right: 570px;
+    }
+    .anek1-2 {
+      width: 276px;
+      height: 414px;
+      top: 301px;
+      right: 935px;
+    }
+    .anek2-1 {
+      width: 303px;
+      height: 295px;
+      top: 43px;
+      left: 43px;
+    }
+    .anek2-2 {
+      width: 304px;
+      height: 378px;
+      bottom: 70px;
+      right: 50px;
+    }
+    .anek3-1 {
+      width: 348px;
+      height: 303px;
+      bottom: 155px;
+      right: 338px;
+    }
+    .anek3-2 {
+      width: 562px;
+      height: 303px;
+      top: 130px;
+      right: 90px;
+    }
+    .anek4-1 {
+      width: 303px;
+      height: 235px;
+      top: 140px;
+      left: 445px;
+    }
+    .anek4-2 {
+      width: 304px;
+      height: 268px;
+      bottom: 110px;
+      left: 30px;
+    }
+
+    /* slot-machine */
+
+    .slot-machine {
+      height: calc(100vw*(768/1024));
+    }
+    .slot-title {
+      height: 60px;
+      font-size: 50px;
+      top: 41px;
+      left: 17px;
+    }
+    .machines {
+      width: 447px;
+      height: 325px;
+    }
+    .machine {
+      top: 220px;
+      left: 276px;
+    }
+    .machine-left {
+      top: 220px;
+      left: 25px;
+    }
+    .machine-right {
+      top: 220px;
+      right: 24px;
+    }
+    .screw {
+      width: 131px;
+      height: 144px;
+      top: 583px;
+      left: 440px;
+    }
+    .done-4 {
+      width: 303px;
+      height: 87px;
+      top: 633px;
+      left: 361px;
+    }
+}
+
+/* 414 */
+
+@media screen and (max-width: 415px) {
+  .backgr {
+  height: calc(100vw * (896 / 414));
+  }
+  .container {
+      max-width: 414px;
+      max-height: 896px;
+  }
+  .chip {
+      width: calc(100vw*(250 / 414));
+  }
+  .c-1 {
+      top: calc(100vw*(-61/414));
+      left: calc(100vw*(-37/414));
+  }
+  .c-2 {
+      top: calc(100vw*(368/414));
+      left: calc(100vw*(77/414));
+  }
+  .c-3 {
+    top: calc(100vw*(27/414));
+    right: calc(100vw*(86/414));
+  }
+  .c-4 {
+    top: calc(100vw*(-40/414));
+    right: calc(100vw*(-90/414));
+  }
+  .c-5 {
+    top: calc(100vw*(405/414));
+    left: calc(100vw*(-82/414));
+  }
+  .c-6 {
+    top: calc(100vw*(464/414));
+    left: calc(100vw*(164/414));
+  }
+  .c-7 {
+    top: calc(100vw*(147/414));
+    left: calc(100vw*(87/414));
+  }
+  .c-8 {
+    top: calc(100vw*(364/414));
+    right: calc(100vw*(-83/414));
+  }
+  .c-9 {
+    top: calc(100vw*(495/414));
+    left: calc(100vw*(62/414));
+  }
+  .c-10 {
+    top: calc(100vw*(792/414));
+    left: calc(100vw*(461/414));
+  }
+  .c-11 {
+    top: calc(100vw*(622/414));
+    right: calc(100vw*(232/414));
+  }
+  .c-12 {
+    top: calc(100vw*(639/414));
+    right: calc(100vw*(110/414));
+  }
+  .c-13 {
+    top: calc(100vw*(232/414));
+    left: calc(100vw*(270/414));
+  }
+  .c-14 {
+    bottom: calc(100vw*(915/414));
+    left: calc(100vw*(602/414));
+  }
+  .c-15 {
+    top: calc(100vw*(1116/414));
+    right: calc(100vw*(520/414));
+  }
+  .c-16 {
+    top: calc(100vw*(1120/414));
+    right: calc(100vw*(-12/414));
+  }
+  .c-17 {
+    bottom: calc(100vw*(250/414));
+    left: calc(100vw*(580/414));
+  }
+  .c-18 {
+    bottom: calc(100vw*(644/414));
+    left: calc(100vw*(690/414));
+  }
+  .c-19 {
+    bottom: calc(100vw*(782/414));
+    right: calc(100vw*(570/414));
+  }
+  .c-20 {
+    bottom: calc(100vw*(695/414));
+    right: calc(100vw*(220/414));
+  }
+  .c-21 {
+    bottom: calc(100vw*(388/414));
+    left: calc(100vw*(-70/414));
+  }
+  .c-22 {
+    bottom: calc(100vw*(425/414));
+    left: calc(100vw*(349/414));
+  }
+  .c-23 {
+    bottom: calc(100vw*(64/414));
+    right: calc(100vw*(-39/414));
+  }
+  .c-24 {
+    bottom: calc(100vw*(349/414));
+    right: calc(100vw*(510/414));
+  }
+  .title {
+    width: 278px;
+    height: 145px;
+    font-size: 40px;
+    top: 67px;
+    left: 16px;
+  }
+  .hide-btn {
+    width: 219px;
+    height: 32px;
+    left: 98px;
+    font-size: 15px;
+  }
+  .hide-btn-2 {
+    width: 41px;
+    height: 32px;
+    left: 207px;
+    font-size: 36px;
+  }
+  .show-text {
+    padding-left: 6px;
+    font-size: 36px;
+    bottom: -3px;
+  }
+  #FAQ {
+    width: 55px;
+    height: 55px;
+    top: 67px;
+    right: 16px;
+    font-size: 40px;
+    border: 7px solid #1A841A;
+  }
+  .FAQ-txt {
+    bottom: -5%;
+    right: 10%;
+  }
+  #FAQ:hover {
+    color: #1a841aaa;
+    border: 7px solid #1a841aaa;
+  }
+  .slot {
+    width: 93px;
+    height: 198px;
+    font-size: 50px;
+    }
+  .slot1 {
+    top: 226px;
+    left: 16px;
+    }
+  .slot2 {
+    top: 199px;
+    left: 277px;
+    }
+  .slot3 {
+    top: 408px;
+    right: 252px;
+    }
+  .slot4 {
+    top: 395px;
+    right: 77px;
+    }
+  .slot.scaled {
+    animation: slotshake-scaled-mobile 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    }
+  h2 {
+    width: 362px;
+    height: 37px;
+    font-size: 24px;
+    bottom: 255px;
+    left: 26px;
+    }
+  .name-input {
+    width: 358px;
+    height: 61px;
+    bottom: 180px;
+    left: 10px;
+    font-size: 20px;
+    border: 7px solid #FFF;
+    }
+  .print-btn {
+    width: 394px;
+    height: 137px;
+    bottom: 26px;
+    right: 10px;
+    font-size: 20px;
+    border: 7px solid #FFF;
+    }
+  .print-gif {
+    width: 627px;
+    height: 353px;
+    bottom: -110px;
+    right: -130px;
+    }
+  .print-approved {
+    width: 236px;
+    height: 113px;
+    bottom: 35px;
+    right: 85px;
+    }
+  .approved-txt {
+    width: 207px;
+    height: 61px;
+    font-size: 25px;
+    bottom: 30px;
+    right: 13px;
+    }
+  .print-denied {
+    width: 236px;
+    height: 113px;
+    bottom: 35px;
+    right: 85px;
+    }
+  .denied-txt {
+    width: 189px;
+    height: 29px;
+    font-size: 25px;
+    bottom: 43px;
+    right: 25px;
+    }
+
+    /* modal */
+
+    #modal-window {
+      width: 388px;
+      height: 436px;
+      top: 57px;
+      right: 5px;
+      background-image: url(../images/modal-414.png);
+    }
+    #FAQ-2 {
+      width: 55px;
+      height: 55px;
+      top: 10px;
+      right: 12px;
+      font-size: 40px;
+      border: 7px solid #ffffff;
+    }
+    #FAQ-2:hover {
+      color: #ffffffa9;
+      border: 7px solid #ffffffa9;
+    }
+    .modal-txt {
+      width: 300px;
+      height: 214px;
+      font-size: 14px;
+      top: 13px;
+      right: 62px;
+      }
+    .modal-txt-2 {
+      font-size: 14px;
+      top: 380px;
+      right: -385px;
+      }
+
+    /* draggable */
+
+    .chips-drag {
+      height: calc(100vw*(896/415));
+      }
+    .chips-title {
+      width: 239px;
+      height: 121px;
+      font-size: 30px;
+      top: 20px;
+      left: 23px;
+      }
+    .hand-1 {
+      width: 235px;
+      height: 277px;
+      top: 143px;
+      }
+    .hand-2 {
+      width: 235px;
+      height: 277px;
+      top: 493px;
+      right: 0px;
+      }
+    .draggable {
+      width: calc(100vw*(78/414));
+      }
+    .dchip-1 {
+      top: calc(100vw*(368/414));
+      left: calc(100vw*(148/414));
+      }
+    .dchip-2 {
+      top: calc(100vw*(370/414));
+      left: calc(100vw*(180/414));
+      }
+    .dchip-3 {
+      top: calc(100vw*(269/414));
+      left: calc(100vw*(190/414));
+      }
+    .dchip-4 {
+      top: calc(100vw*(330/414));
+      left: calc(100vw*(240/414));
+      }
+    .dchip-5 {
+      top: calc(100vw*(455/414));
+      left: calc(100vw*(268/414));
+      }
+    .dchip-6 {
+      top: calc(100vw*(468/414));
+      left: calc(100vw*(238/414));
+      }
+    .dchip-7 {
+      top: calc(100vw*(357/414));
+      left: calc(100vw*(198/414));
+      }
+    .dchip-8 {
+      top: calc(100vw*(425/414));
+      left: calc(100vw*(220/414));
+      }
+    .dchip-9 {
+      top: calc(100vw*(368/414));
+      left: calc(100vw*(300/414));
+      }
+    .dchip-10 {
+      top: calc(100vw*(380/414));
+      right: calc(100vw*(220/414));
+      }
+    .dchip-11 {
+      top: calc(100vw*(408/414));
+      left: calc(100vw*(248/414));
+      }
+    .dchip-12 {
+      top: calc(100vw*(398/414));
+      left: calc(100vw*(179/414));
+      }
+    .dchip-13 {
+      top: calc(100vw*(428/414));
+      left: calc(100vw*(133/414));
+      }
+    .dchip-14 {
+      top: calc(100vw*(448/414));
+      left: calc(100vw*(158/414));
+      }
+    .dchip-15 {
+      top: calc(100vw*(270/414));
+      right: calc(100vw*(80/414));
+      }
+    .done-1 {
+      width: 255px;
+      height: 73px;
+      top: 779px;
+      left: 80px;
+      }
+    .done-text {
+      font-size: 30px;
+      right: 5px;
+      bottom: -5px;
+      }
+
+    /* cards */
+
+    .cards {
+      height: calc(100vw*(896/414));
+    }
+    .cards-title {
+      width: 202px;
+      height: 114px;
+      font-size: 30px;
+      top: 20px;
+      left: 23px;
+    }
+    .card {
+      width: 95px;
+      height: 169px;
+    }
+    .card-img-1 {
+      top: 125px;
+      left: 61px;
+    }
+    .card-img-2 {
+      top: 125px;
+      left: 159px;
+    }
+    .card-img-3 {
+      top: 125px;
+      left: 257px;
+    }
+    .card-img-4 {
+      top: 256px;
+      right: 258px;
+    }
+    .card-img-5 {
+      top: 256px;
+      right: 159px;
+    }
+    .card-img-6 {
+      top: 256px;
+      right: 62px;
+    }
+    .card-img-7 {
+      bottom: 339px;
+      left: 61px;
+    }
+    .card-img-8 {
+      bottom: 339px;
+      left: 160px;
+    }
+    .card-img-9 {
+      bottom: 339px;
+      left: 258px;
+    }
+    .card-img-10 {
+      bottom: 209px;
+      right: 257px;
+    }
+    .card-img-11 {
+      bottom: 209px;
+      right: 160px;
+    }
+    .card-img-12 {
+      bottom: 209px;
+      right: 62px;
+    }
+    .magnifying {
+      top: 300px;
+      right: 265px;
+    }
+    .magnifying:before {
+      width: 266px;
+      height: 274px;
+    }
+    .magnifier {
+      width: 96px;
+      height: 93px;
+      background-image: url(../images/cards-414.png);
+      z-index: -5;
+    }
+    .done-2 {
+      width: 255px;
+      height: 73px;
+      top: 779px;
+      left: 80px;
+    }
+
+    /* anekdoti */
+
+    .anekdoti {
+      height: calc(100vw*(896/414));
+    }
+    .anek-title {
+      width: 269px;
+      height: 72px;
+      font-size: 30px;
+      top: 20px;
+      left: 23px;
+    }
+    .done-3 {
+      width: 255px;
+      height: 73px;
+      top: 779px;
+      left: 80px;
+    }
+    .anek1-1 {
+      width: 309px;
+      height: 414px;
+      top: 153px;
+      right: 570px;
+    }
+    .anek1-2 {
+      width: 276px;
+      height: 414px;
+      top: 301px;
+      right: 935px;
+    }
+    .anek2-1 {
+      width: 303px;
+      height: 295px;
+      top: 43px;
+      left: 43px;
+    }
+    .anek2-2 {
+      width: 304px;
+      height: 378px;
+      bottom: 70px;
+      right: 50px;
+    }
+    .anek3-1 {
+      width: 348px;
+      height: 303px;
+      bottom: 155px;
+      right: 338px;
+    }
+    .anek3-2 {
+      width: 562px;
+      height: 303px;
+      top: 130px;
+      right: 90px;
+    }
+    .anek4-1 {
+      width: 303px;
+      height: 235px;
+      top: 140px;
+      left: 445px;
+    }
+    .anek4-2 {
+      width: 304px;
+      height: 268px;
+      bottom: 110px;
+      left: 30px;
+    }
+
+    /* slot-machine */
+
+    .slot-machine {
+      height: calc(100vw*(896/414));
+    }
+    .slot-title {
+      width: 300px;
+      height: 72px;
+      font-size: 30px;
+      top: 20px;
+      left: 23px;
+    }
+    .machines {
+      width: 294px;
+      height: 214px;
+    }
+    .machine {
+      top: 303px;
+      left: 57px;
+    }
+    .machine-left {
+      top: 175px;
+      left: 57px;
+    }
+    .machine-right {
+      top: 410px;
+      right: 63px;
+    }
+    .screw {
+      width: 123px;
+      height: 135px;
+      top: 710px;
+      left: 142px;
+    }
+    .done-4 {
+      width: 255px;
+      height: 73px;
+      top: 779px;
+      left: 80px;
+    }
+}
+
+/* 360 */
+
+@media screen and (max-width: 360px) {
+  .backgr {
+  height: calc(100vw * (640 / 360));
+  }
+  .container {
+      max-width: 360px;
+      max-height: 640px;
+  }
+  .chip {
+      width: calc(100vw*(150 / 360));
+  }
+  .c-1 {
+      top: calc(100vw*(-61/360));
+      left: calc(100vw*(-37/360));
+  }
+  .c-2 {
+      top: calc(100vw*(68/360));
+      left: calc(100vw*(77/360));
+  }
+  .c-3 {
+    top: calc(100vw*(-20/360));
+    right: calc(100vw*(56/360));
+  }
+  .c-4 {
+    top: calc(100vw*(-40/360));
+    right: calc(100vw*(-90/360));
+  }
+  .c-5 {
+    top: calc(100vw*(405/360));
+    left: calc(100vw*(-82/360));
+  }
+  .c-6 {
+    top: calc(100vw*(464/360));
+    left: calc(100vw*(164/360));
+  }
+  .c-7 {
+    top: calc(100vw*(97/360));
+    left: calc(100vw*(137/360));
+  }
+  .c-8 {
+    top: calc(100vw*(364/360));
+    right: calc(100vw*(-83/360));
+  }
+  .c-9 {
+    top: calc(100vw*(495/360));
+    left: calc(100vw*(62/360));
+  }
+  .c-10 {
+    top: calc(100vw*(492/360));
+    left: calc(100vw*(461/360));
+  }
+  .c-11 {
+    top: calc(100vw*(622/360));
+    right: calc(100vw*(232/360));
+  }
+  .c-12 {
+    top: calc(100vw*(309/360));
+    right: calc(100vw*(140/360));
+  }
+  .c-13 {
+    top: calc(100vw*(232/360));
+    left: calc(100vw*(270/360));
+  }
+  .c-14 {
+    bottom: calc(100vw*(215/360));
+    left: calc(100vw*(602/360));
+  }
+  .c-15 {
+    top: calc(100vw*(156/360));
+    right: calc(100vw*(520/360));
+  }
+  .c-16 {
+    top: calc(100vw*(150/360));
+    right: calc(100vw*(-12/360));
+  }
+  .c-17 {
+    bottom: calc(100vw*(250/360));
+    left: calc(100vw*(280/360));
+  }
+  .c-18 {
+    bottom: calc(100vw*(344/360));
+    left: calc(100vw*(190/360));
+  }
+  .c-19 {
+    bottom: calc(100vw*(382/360));
+    right: calc(100vw*(260/360));
+  }
+  .c-20 {
+    bottom: calc(100vw*(225/360));
+    right: calc(100vw*(190/360));
+  }
+  .c-21 {
+    bottom: calc(100vw*(208/360));
+    left: calc(100vw*(-70/360));
+  }
+  .c-22 {
+    bottom: calc(100vw*(465/360));
+    left: calc(100vw*(-21/360));
+  }
+  .c-23 {
+    bottom: calc(100vw*(64/360));
+    right: calc(100vw*(-39/360));
+  }
+  .c-24 {
+    bottom: calc(100vw*(399/360));
+    right: calc(100vw*(-100/360));
+  }
+  .title {
+    width: 205px;
+    height: 107px;
+    font-size: 30px;
+    top: 44px;
+    left: 10px;
+  }
+  .hide-btn {
+    width: 161px;
+    height: 24px;
+    left: 100px;
+    font-size: 10px;
+  }
+  .hide-btn-2 {
+    width: 35px;
+    height: 27px;
+    left: 180px;
+    font-size: 26px;
+  }
+  .show-text {
+    padding-left: 7px;
+    font-size: 26px;
+    bottom: 0px;
+  }
+  #FAQ {
+    width: 55px;
+    height: 55px;
+    top: 44px;
+    right: 12px;
+    font-size: 40px;
+    border: 5px solid #1A841A;
+  }
+  .FAQ-txt {
+    bottom: 1%;
+    right: 14%;
+  }
+  #FAQ:hover {
+    color: #1a841aaa;
+    border: 5px solid #1a841aaa;
+  }
+  .slot {
+    width: 68px;
+    height: 145px;
+    font-size: 35px;
+    }
+  .slot1 {
+    top: 148px;
+    left: 44px;
+    }
+  .slot2 {
+    top: 142px;
+    left: 212px;
+    }
+  .slot3 {
+    top: 280px;
+    right: 210px;
+    }
+  .slot4 {
+    top: 281px;
+    right: 94px;
+    }
+  .slot.scaled {
+    animation: slotshake-scaled-mobile 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    }
+  h2 {
+    width: 274px;
+    height: 28px;
+    font-size: 18px;
+    bottom: 188px;
+    left: 48px;
+    }
+  .name-input {
+    width: 232px;
+    height: 45px;
+    bottom: 133px;
+    left: 48px;
+    font-size: 15px;
+    border: 5px solid #FFF;
+    }
+  .print-btn {
+    width: 263px;
+    height: 108px;
+    bottom: 15px;
+    right: 49px;
+    font-size: 15px;
+    border: 5px solid #FFF;
+    }
+  .print-gif {
+    width: 516px;
+    height: 290px;
+    bottom: -100px;
+    right: -90px;
+    }
+  .print-approved {
+    width: 180px;
+    height: 86px;
+    bottom: 25px;
+    right: 90px;
+    }
+  .approved-txt {
+    width: 133px;
+    height: 48px;
+    font-size: 20px;
+    bottom: 22px;
+    right: 20px;
+    }
+  .print-denied {
+    width: 180px;
+    height: 86px;
+    bottom: 25px;
+    right: 90px;
+    }
+  .denied-txt {
+    width: 151px;
+    height: 20px;
+    font-size: 20px;
+    bottom: 37px;
+    right: 15px;
+    }
+
+    /* modal */
+
+    #modal-window {
+      width: 332px;
+      height: 436px;
+      top: 35px;
+      right: 0px;
+      background-image: url(../images/modal-360.png);
+    }
+    #FAQ-2 {
+      width: 55px;
+      height: 55px;
+      top: 10px;
+      right: 12px;
+      font-size: 40px;
+      border: 5px solid #ffffff;
+    }
+    #FAQ-2:hover {
+      color: #ffffffa9;
+      border: 5px solid #ffffffa9;
+    }
+    .modal-txt {
+      width: 282px;
+      height: 257px;
+      font-size: 13px;
+      top: 60px;
+      right: 30px;
+      }
+    .modal-txt-2 {
+      font-size: 13px;
+      top: 270px;
+      right: -385px;
+      }
+
+    /* draggable */
+
+    .chips-drag {
+      height: calc(100vw*(640/360));
+      }
+    .chips-title {
+      width: 200px;
+      height: 102px;
+      font-size: 27px;
+      top: 14px;
+      left: 15px;
+      }
+    .hand-1 {
+      width: 186px;
+      height: 233px;
+      top: 105px;
+      }
+    .hand-2 {
+      width: 186px;
+      height: 233px;
+      top: 308px;
+      right: 0px;
+      }
+    .draggable {
+      width: calc(100vw*(78/360));
+      }
+    .dchip-1 {
+      top: calc(100vw*(368/500));
+      left: calc(100vw*(148/500));
+      }
+    .dchip-2 {
+      top: calc(100vw*(370/500));
+      left: calc(100vw*(180/500));
+      }
+    .dchip-3 {
+      top: calc(100vw*(269/500));
+      left: calc(100vw*(190/500));
+      }
+    .dchip-4 {
+      top: calc(100vw*(330/500));
+      left: calc(100vw*(240/500));
+      }
+    .dchip-5 {
+      top: calc(100vw*(455/500));
+      left: calc(100vw*(268/500));
+      }
+    .dchip-6 {
+      top: calc(100vw*(468/500));
+      left: calc(100vw*(238/500));
+      }
+    .dchip-7 {
+      top: calc(100vw*(357/500));
+      left: calc(100vw*(198/500));
+      }
+    .dchip-8 {
+      top: calc(100vw*(425/500));
+      left: calc(100vw*(220/500));
+      }
+    .dchip-9 {
+      top: calc(100vw*(368/500));
+      left: calc(100vw*(300/500));
+      }
+    .dchip-10 {
+      top: calc(100vw*(380/500));
+      right: calc(100vw*(220/500));
+      }
+    .dchip-11 {
+      top: calc(100vw*(408/500));
+      left: calc(100vw*(248/500));
+      }
+    .dchip-12 {
+      top: calc(100vw*(398/500));
+      left: calc(100vw*(179/500));
+      }
+    .dchip-13 {
+      top: calc(100vw*(428/500));
+      left: calc(100vw*(133/500));
+      }
+    .dchip-14 {
+      top: calc(100vw*(448/500));
+      left: calc(100vw*(158/500));
+      }
+    .dchip-15 {
+      top: calc(100vw*(270/500));
+      right: calc(100vw*(80/500));
+      }
+    .done-1 {
+      width: 215px;
+      height: 61px;
+      top: 537px;
+      left: 72px;
+      }
+    .done-text {
+      font-size: 30px;
+      right: -15px;
+      bottom: -10px;
+      }
+
+    /* cards */
+
+    .cards {
+      height: calc(100vw*(896/414));
+    }
+    .cards-title {
+      width: 200px;
+      height: 102px;
+      font-size: 27px;
+      top: 14px;
+      left: 15px;
+    }
+    .card {
+      width: 81px;
+      height: 143px;
+    }
+    .card-img-1 {
+      top: 116px;
+      left: 15px;
+    }
+    .card-img-2 {
+      top: 116px;
+      left: 98px;
+    }
+    .card-img-3 {
+      top: 116px;
+      left: 181px;
+    }
+    .card-img-4 {
+      top: 116px;
+      right: 15px;
+    }
+    .card-img-5 {
+      top: 241px;
+      right: 264px;
+    }
+    .card-img-6 {
+      top: 241px;
+      right: 181px;
+    }
+    .card-img-7 {
+      bottom: 396px;
+      left: 181px;
+    }
+    .card-img-8 {
+      bottom: 396px;
+      left: 264px;
+    }
+    .card-img-9 {
+      bottom: 256px;
+      left: 15px;
+    }
+    .card-img-10 {
+      bottom: 256px;
+      right: 181px;
+    }
+    .card-img-11 {
+      bottom: 256px;
+      right: 98px;
+    }
+    .card-img-12 {
+      bottom: 256px;
+      right: 15px;
+    }
+    .magnifying {
+      top: 300px;
+      right: 265px;
+    }
+    .magnifying:before {
+      width: 266px;
+      height: 274px;
+    }
+    .magnifier {
+      width: 96px;
+      height: 93px;
+      background-image: url(../images/cards-414.png);
+      z-index: -5;
+    }
+    .done-2 {
+      width: 215px;
+      height: 61px;
+      top: 537px;
+      left: 72px;
+    }
+
+    /* anekdoti */
+
+    .anekdoti {
+      height: calc(100vw*(640/360));
+    }
+    .anek-title {
+      width: 200px;
+      height: 64px;
+      font-size: 27px;
+      top: 14px;
+      left: 15px;
+    }
+    .done-3 {
+      width: 215px;
+      height: 61px;
+      top: 537px;
+      left: 72px;
+    }
+    .anek1-1 {
+      width: 309px;
+      height: 414px;
+      top: 153px;
+      right: 570px;
+    }
+    .anek1-2 {
+      width: 276px;
+      height: 414px;
+      top: 301px;
+      right: 935px;
+    }
+    .anek2-1 {
+      width: 303px;
+      height: 295px;
+      top: 43px;
+      left: 43px;
+    }
+    .anek2-2 {
+      width: 304px;
+      height: 378px;
+      bottom: 70px;
+      right: 50px;
+    }
+    .anek3-1 {
+      width: 348px;
+      height: 303px;
+      bottom: 155px;
+      right: 338px;
+    }
+    .anek3-2 {
+      width: 562px;
+      height: 303px;
+      top: 130px;
+      right: 90px;
+    }
+    .anek4-1 {
+      width: 303px;
+      height: 235px;
+      top: 140px;
+      left: 445px;
+    }
+    .anek4-2 {
+      width: 304px;
+      height: 268px;
+      bottom: 110px;
+      left: 30px;
+    }
+
+    /* slot-machine */
+
+    .slot-machine {
+      height: calc(100vw*(640/360));
+    }
+    .slot-title {
+      width: 289px;
+      height: 64px;
+      font-size: 27px;
+      top: 14px;
+      left: 15px;
+    }
+    .machines {
+      width: 255px;
+      height: 186px;
+    }
+    .machine {
+      top: 219px;
+      left: 53px;
+    }
+    .machine-left {
+      top: 108px;
+      left: 53px;
+    }
+    .machine-right {
+      top: 312px;
+      right: 52px;
+    }
+    .screw {
+      width: 86px;
+      height: 95px;
+      top: 528px;
+      left: 132px;
+    }
+    .done-4 {
+      width: 215px;
+      height: 61px;
+      top: 537px;
+      left: 72px;
+    }
+}
+
+
