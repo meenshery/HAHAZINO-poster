@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ptxt.style.bottom = "19%";
       ptxt.style.left = "38%";
     } else if (screenWidth >= 414) {
-      ptxt.style.bottom = "22%";
+      ptxt.style.bottom = "23%";
       ptxt.style.left = "26%";
     } else if (screenWidth >= 360) {
       ptxt.style.bottom = "25%";
@@ -240,11 +240,30 @@ document.querySelectorAll(".draggable, .magnifying").forEach(draggableElement =>
         document.removeEventListener("touchmove", onMouseMove);
         document.removeEventListener("touchend", onMouseUp);
 
+        if (window.innerWidth <=360) {
+          groupNearbyElementsHorizontal('.anekdoti > .anek-pair-1', 26);
+          groupNearbyElementsVertical('.anekdoti > .anek-pair-2', 40);
+          groupNearbyElementsHorizontal('.anekdoti > .anek-pair-3', 124);
+          groupNearbyElementsVertical('.anekdoti > .anek-pair-4', 20);
+        }
+        else if (window.innerWidth <=414) {
+          groupNearbyElementsHorizontal('.anekdoti > .anek-pair-1', 33);
+          groupNearbyElementsVertical('.anekdoti > .anek-pair-2', 49);
+          groupNearbyElementsHorizontal('.anekdoti > .anek-pair-3', 257);
+          groupNearbyElementsVertical('.anekdoti > .anek-pair-4', 23);
+        }
+        else if (window.innerWidth <=440) {
+          groupNearbyElementsHorizontal('.anekdoti > .anek-pair-1', 224);
+          groupNearbyElementsVertical('.anekdoti > .anek-pair-2', 48);
+          groupNearbyElementsHorizontal('.anekdoti > .anek-pair-3', 247);
+          groupNearbyElementsVertical('.anekdoti > .anek-pair-4', 23);
+        }
+        else {
         groupNearbyElementsHorizontal('.anekdoti > .anek-pair-1', 70);
         groupNearbyElementsVertical('.anekdoti > .anek-pair-2', 110);
         groupNearbyElementsHorizontal('.anekdoti > .anek-pair-3', 345);
         groupNearbyElementsVertical('.anekdoti > .anek-pair-4', 55);
-    }
+    }}
 
     draggableElement2.addEventListener("mousedown", startDrag);
     draggableElement2.addEventListener("touchstart", startDrag);
@@ -432,7 +451,7 @@ function showSection (main) {
 
             document.querySelectorAll(".machines").forEach(box => {
 
-              if (window.innerWidth <= 440) {
+              if (window.innerWidth <= 414) {
 
                 if (clickCount == 1) {
                   box.style.opacity = "0.57";
@@ -481,11 +500,13 @@ function showSection (main) {
             });
         });
 
-        // anekdoti склеивание
+        // anekdoti склеивание по горизонтали
 
     function groupNearbyElementsHorizontal(selector, aneksOffset) {
       var elements = document.querySelectorAll(selector);
       let grouped = [];
+
+      aneksOffset = getScaledHorizontalOffset(aneksOffset);
   
       elements.forEach((el1) => {
           if (grouped.includes(el1)) return;
@@ -592,6 +613,8 @@ function showSection (main) {
     var elements = document.querySelectorAll(selector);
     let grouped = [];
 
+    aneksOffset = getScaledVerticalOffset(aneksOffset);
+
     elements.forEach((el1) => {
         if (grouped.includes(el1)) return;
 
@@ -690,11 +713,22 @@ function showSection (main) {
           });
       });
   }
-      
+  
         
-        
-        
-
+  function getScaledHorizontalOffset(aneksOffset, baseWidth = 1920) {
+    const currentWidth = window.innerWidth;
+    if (currentWidth <= 440) {
+      return aneksOffset; 
+    }
+    return aneksOffset * (currentWidth / baseWidth);
+  }
+  
+  function getScaledVerticalOffset(aneksOffset, baseHeight = 1080) {
+    const currentHeight = window.innerHeight;
+    if (window.innerWidth <= 440) {
+      return aneksOffset;
+    }
+    return aneksOffset * (currentHeight / baseHeight);
+  }
+  
  })
-
- 
