@@ -451,7 +451,7 @@ function showSection (main) {
 
             document.querySelectorAll(".machines").forEach(box => {
 
-              if (window.innerWidth <= 414) {
+              if (window.innerWidth <= 440) {
 
                 if (clickCount == 1) {
                   box.style.opacity = "0.57";
